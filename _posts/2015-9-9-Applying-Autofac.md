@@ -14,11 +14,15 @@ There are many good DI containers ([Performance comparison][3]) and I will choos
 ![_config.yml]({{ site.baseurl }}/images/posts/di/service-before-and-after.png)
 
 The left side is the code before applying DI
+
 - Service depends on an implementation `AppDbContext`
+
 - Service manages instance lifetime of `AppDbContext`
 
 Code on the right side has been refactored
+
 - Service depends on `IDbContext`, an abstraction of `AppDbContext`
+
 - Service focus on its logic, not needed to manage instances of all dependencies
 
 Similarly, we have the same thing on controllers and other services
@@ -51,3 +55,4 @@ into controllers, services, repositories following what has been registered on A
 [3]: http://www.palmmedia.de/blog/2011/8/30/ioc-container-benchmark-performance-comparison
 [4]: https://www.nuget.org/packages/Autofac.Mvc4/
 [5]: http://autofac.readthedocs.org/en/latest/integration/mvc.html#quick-start
+[6]: https://github.com/juanonsoftware/ionline/commit/286d82bd37746d117443548edb1fb02558699646
