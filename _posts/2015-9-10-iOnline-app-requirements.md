@@ -3,7 +3,10 @@ layout: post
 title: iOnline - application requirements
 ---
 
-A web application that manages messages written by any internet user.
+I have involved in building a web application that deployed on a could platform using different database system
+from SQL to NoSQL database system. I will share here all steps we did to make it running.
+
+The web application that manages messages written by any internet user. Below are the requirements
 
 **Functional requirements**
 
@@ -18,7 +21,7 @@ to display on listing page.
 
 - User can view a message and all comments about it. The message should be displayed with Markdown format.
 
-- User can search for messages by a keywork
+- User can search for messages by a keyword
 
 - System must validate to ensure that message will not be posted by any robot
 
