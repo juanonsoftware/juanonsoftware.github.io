@@ -22,9 +22,9 @@ to display on listing page.
 
 - System must validate to ensure that message will not be posted by any robot
 
-**Platform requirements**
+**Deployment requirements**
+
+- Deploy the application on a cloud platform (Azure or any other ones like AppHarbor)
 
 - System should be deployed easily on different database system including SQL Server, NoSQL (RavenDB/MongoDB).
 Switch bitween different db systems easily.
-
-- Deploy the application on a cloud platform (Azure or any other ones like AppHarbor)
