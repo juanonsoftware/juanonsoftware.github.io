@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Applying DI / IoC using Autofac
+title: Applying DI / IoC into ASP.NET MVC project using Autofac
 ---
 
 My website is up and running well even it has not been implemented any dependency injection container.
