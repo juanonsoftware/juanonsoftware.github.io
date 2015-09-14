@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Integrate Google reCaptcha into ASP.NET MVC form
+tags: [aspnetmvc]
 ---
 
 

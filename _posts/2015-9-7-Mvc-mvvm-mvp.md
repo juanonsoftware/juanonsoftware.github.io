@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Understanding MVC / MVP / MVVM and the differences
+tags: [aspnetmvc]
 ---
 
 Some helpful articles about all 3 patterns above. There are many links on the internet talking about these patterns
