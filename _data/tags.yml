@@ -6,3 +6,12 @@ github:
 
 jekyll:
   name: Jekyll
+  
+nosql:
+  name: NoSQL
+  
+ef:
+  name: Entity Framework
+  
+projects:
+  name: Projects
