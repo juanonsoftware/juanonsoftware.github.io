@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Secure configuration values on Azure
+tags: [cloud]
 ---
 
 If an application will be deployed on Azure we can secure sensitive application settings

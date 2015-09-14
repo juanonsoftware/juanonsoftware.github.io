@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Use Redis on Azure for caching
+tags: [cloud, nosql]
 ---
 
 [Redis][4] is a suppoer fast NoSQL data store, it can be used to cache our very high loaded data.

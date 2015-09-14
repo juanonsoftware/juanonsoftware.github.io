@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Components on for this blog
-category: blog
+category: [blog]
 tags: [github, jekyll]
 ---
 

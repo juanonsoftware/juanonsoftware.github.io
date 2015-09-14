@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EntityFramework - deploy custom stored procedures to Azure
+tags: [ef, cloud]
 ---
 
 Continuing on my [previous post regarding EF-Azure][1] for project [IOnline][2], I need to adapt

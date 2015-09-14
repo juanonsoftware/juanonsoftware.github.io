@@ -15,3 +15,9 @@ ef:
   
 projects:
   name: Projects
+
+cloud:
+  name: Cloud Platform
+
+aspnetmvc:
+  name: ASP.NET MVC

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: EntityFramework - migrate to latest version on Azure and local database from code
+tags: [ef, cloud]
 ---
 
 When working with EF Code First approach, we must update system database after modified model entities

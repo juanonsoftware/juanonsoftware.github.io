@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to implement pagination on ASP.NET MVC4
+tags: [aspnetmvc]
 ---
 
 

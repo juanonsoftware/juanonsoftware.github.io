@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Azure - deployment and integration made easier
+tags: [cloud]
 ---
 
 Microsoft Azure is a cloud-platform which enables us to host not only web-application,
