@@ -1,11 +1,23 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
 published: true
 ---
 
-Hi and thank you for visiting my about page.
+Hi and thank you for visiting the about page.
+
+I build this blog with purpose of knowledge sharing including solutions for real problem occurs on
+real app development and also while doing some practices.
+
+You are welcome to share your idea on each post by comment feature.
+
+### Contact me
+
+If you would like to drop me some information, this is my email 
+[juanonsoftware@gmail.com](mailto:juanonsoftware@gmail.com).
+
+### About me
 
 My name is Juan, a software engineer based in Hanoi, Vietnam. I worked with PHP, Java in the past.
 Currently my professional is targeting on .NET Framework using various technologies & languages
@@ -21,9 +33,4 @@ including:
 
 - *DBMS*: MySQL, SQL Server, Oracle.
 
-- *VCS*: SVN, Git, TFS (and the earliest system CVS :) ).
-
-### Contact me
-
-If you would like to drop me some information, this is my email 
-[juanonsoftware@gmail.com](mailto:juanonsoftware@gmail.com).
+- *VCS*: SVN, Git, TFS
