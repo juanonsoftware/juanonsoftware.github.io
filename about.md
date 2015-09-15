@@ -5,7 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Hi and thank you for visiting the about page.
+Hi and thank you for visiting.
 
 I build this blog with purpose of knowledge sharing including solutions for real problem occurs on
 real app development and also while doing some practices.
