@@ -4,7 +4,7 @@ title: EntityFramework - Mapping entities better
 tags: [ef]
 ---
 
-Basis of mapping in Entity Framework
+Basis of mapping in Entity Framework, how to map a POCO to table and customize mapping using Fluent API.
 
 ##1. Primary key
 By default, it will take property named `ID` or `Id` or `<ClassName>Id` such as `UserId`, `PostId`.
