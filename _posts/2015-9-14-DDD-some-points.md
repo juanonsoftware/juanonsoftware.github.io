@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DDD - Coding for Domain-Driven Design
+tags: [ef]
 ---
 
 Reading a series of posts [Data Points - Coding for Domain-Driven Design: Tips for Data-Focused Devs][1]

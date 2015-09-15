@@ -1,16 +1,18 @@
 ---
 layout: post
 title: EntityFramework - Mapping entities better
+tags: [ef]
 ---
 
+Basis of mapping in Entity Framework
 
-**1. Primary key
+##1. Primary key
 By default, it will take property named `ID` or `Id` or `<ClassName>Id` such as `UserId`, `PostId`.
 
 To specify it manually, this is a syntax
 modelBuilder.Entity<OfficeAssignment>().HasKey(t => t.InstructorID);
 
-**2. Configuring on a Property
+##2. Configuring on a Property
 
 ```
 modelBuilder.Entity<Department>().Property(t => t.Name).HasMaxLength(50);
@@ -18,7 +20,7 @@ modelBuilder.Entity<Department>().Property(t => t.Name).IsRequired();
 modelBuilder.Entity<Department>().Property(t => t.Name).HasColumnName("DepartmentName");
 ```
 
-**3. Configuring Properties on a Complex Type
+##3. Configuring Properties on a Complex Type
 
 **Specifying That a Class Is a Complex Type**
 ```
@@ -35,7 +37,7 @@ modelBuilder.Entity<OnsiteCourse>()
     .HasMaxLength(20);
 ```
 
-**4. Inheritance
+##4. Inheritance
 
 *Mapping the Table-Per-Type (TPT)*
 
@@ -61,7 +63,7 @@ modelBuilder.Entity<OnlineCourse>().Map(m =>
 ```
 
 
-** References
+## References
 1. [Configuring/Mapping Properties and Types with the Fluent API][1]
 2. [Entity Framework Code First][2]
 
