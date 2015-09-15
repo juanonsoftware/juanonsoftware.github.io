@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if site.tags[page.tag] %}
-	<h1>Articles by tag {{ page.tag }}</h1>
+	<h1>Articles by tag {{ site.tags[page.tag].name }}</h1>
 	<div class="posts">
 	{% for post in site.tags[page.tag] %}
 		<article class="post">
