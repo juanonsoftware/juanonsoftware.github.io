@@ -66,6 +66,8 @@ modelBuilder.Entity<OnlineCourse>().Map(m =>
 ## References
 1. [Configuring/Mapping Properties and Types with the Fluent API][1]
 2. [Entity Framework Code First][2]
+3. [Managing DbContext the right way with Entity Framework 6: an in-depth guide][3]
 
 [1]: https://msdn.microsoft.com/en-us/data/jj591617.aspx
 [2]: http://www.codeproject.com/Tips/661053/Entity-Framework-Code-First-Map
+[3]: http://mehdi.me/ambient-dbcontext-in-ef6/
