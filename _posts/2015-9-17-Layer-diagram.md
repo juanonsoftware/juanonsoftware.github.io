@@ -1,15 +1,16 @@
 ---
 layout: post
 title: iOnline - Creating a layer diagram
-tags: [sa]
+tags: [projects]
 ---
 
 To show how the application is layering and what it looks like, a layer diagram is best to visualize
 major components and dependencies using by code. It also helps us keep the code to satisfy with the design.
 
-Continuing from this post [iOnline requirements][3] this post will contain steps to create a layer diagram
-for iOnline application. The guidelines describe steps and how to create it with Visual Studio Ultimate version
-but I will use another tool.
+- Post #1 - [iOnline requirements][3]
+
+This post will contain steps to create a layer diagram for iOnline application.
+The guidelines describe steps and how to create it with Visual Studio Ultimate version but I will use Visio tool.
 
 ## The diagram
 ![_config.yml]({{ site.baseurl }}/images/posts/ionline/iOnline-20150917.png)
