@@ -30,21 +30,33 @@ layout: default
     {% assign tags_content = '' %}
 {% endif %}
 
-<article class="post">
+<div class="post-container">
+	<article class="post">
 
-  {% if category_content != '' or tags_content != '' %}
-  <p id="post-meta">Posted {{ category_content }} with {{ tags_content }}</p>
-  {% endif %}
-  
-  <h1>{{ page.title }}</h1>
+	  {% if category_content != '' or tags_content != '' %}
+	  <p id="post-meta">Posted {{ category_content }} with {{ tags_content }}</p>
+	  {% endif %}
+	  
+	  <h1>{{ page.title }}</h1>
 
-  <div class="entry">
-    {{ content }}
-  </div>
+	  <div class="entry">
+		{{ content }}
+	  </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+	  <div class="date">
+		Written on {{ page.date | date: "%B %e, %Y" }}
+	  </div>
 
-  {% include disqus.html %}
-</article>
+	  {% include disqus.html %}
+	</article>
+</div>
+<div class="right-side">
+	<script type="text/javascript">
+		google_ad_client = "ca-pub-7905487635678357";
+		google_ad_slot = "2137171823";
+		google_ad_width = 728;
+		google_ad_height = 90;
+	</script>
+	<!-- On post detail page -->
+	<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+</div>
