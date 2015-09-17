@@ -34,7 +34,9 @@ So if your application can use some free services such as Redis / RavenDB... it 
 
 - Configuration variable is very easy, just added on Azure portal and it will override values from Web.config
 
-- All keys will be hidden by default, only when you click on a specific key to display the value.
+- All keys are not hidden by default, but connection strings will be, only when you click on a specific key to display the value.
+
+![_config.yml]({{ site.baseurl }}/images/posts/azure/azure-settings.png)
 
 **AppHarbor**
 
