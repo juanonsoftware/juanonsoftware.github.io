@@ -6,8 +6,10 @@ tags: [ef]
 
 Basis of mapping in Entity Framework, how to map a POCO to table and customize mapping using Fluent API.
 
+
 ##1. Primary key
 By default, it will take property named `ID` or `Id` or `<ClassName>Id` such as `UserId`, `PostId`.
+([Using the DbContext API link][4])
 
 To specify it manually, this is a syntax
 modelBuilder.Entity<OfficeAssignment>().HasKey(t => t.InstructorID);
@@ -71,3 +73,4 @@ modelBuilder.Entity<OnlineCourse>().Map(m =>
 [1]: https://msdn.microsoft.com/en-us/data/jj591617.aspx
 [2]: http://www.codeproject.com/Tips/661053/Entity-Framework-Code-First-Map
 [3]: http://mehdi.me/ambient-dbcontext-in-ef6/
+[4]: https://msdn.microsoft.com/en-us/data/gg192989.aspx

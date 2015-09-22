@@ -21,3 +21,6 @@ cloud:
 
 aspnetmvc:
   name: ASP.NET MVC
+
+studying:
+  name: Studying
