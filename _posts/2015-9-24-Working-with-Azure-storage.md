@@ -156,7 +156,12 @@ Below is completed code for all above steps
 
 			
 References
+
 - [How to use Queue storage from .NET][2]
+
+- [Data Storage Offerings on the Azure Platform][4]
+
+- [How to use Blob storage from .NET][5]
 
 [1]: https://github.com/juanonsoftware/azure-storage-demo
 [2]: https://azure.microsoft.com/en-us/documentation/articles/storage-dotnet-how-to-use-queues/
