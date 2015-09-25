@@ -13,7 +13,7 @@ For Web application, it can be called by activating URL with HTTP method.
 
 The WCF Data Service requires us to have a entity model, actually it is a DbContext class.
 
-!([3])
+![]([3])
 
 After updated, it looks like below (in my case the class is `TestingModelContainer`)
 
@@ -38,7 +38,6 @@ Suppose your database has below data and you also use FF browser
 This case I want to list all categories with Id > 5
 
 ![_config.yml]({{ site.baseurl }}/images/posts/data-service-filter.png)
-
 
 			
 References
