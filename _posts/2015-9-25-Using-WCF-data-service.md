@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Woring with WCF Data Service
+title: Working with WCF Data Service
 tags: [studying, ef]
 ---
 
@@ -13,7 +13,7 @@ For Web application, it can be called by activating URL with HTTP method.
 
 The WCF Data Service requires us to have a entity model, actually it is a DbContext class.
 
-![_config.yml]([3])
+!([3])
 
 After updated, it looks like below (in my case the class is `TestingModelContainer`)
 
