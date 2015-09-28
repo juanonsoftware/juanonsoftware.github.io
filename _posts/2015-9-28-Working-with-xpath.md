@@ -6,7 +6,7 @@ tags: [studying]
 
 Using XPath is an effecient way to query, filter in XML document. I will explain some practices using XPath.
 
-Related post: [Xml document processing][{{ site.baseurl }}/Xml-processing]
+Related post: [Xml document processing][({{ site.baseurl }}/Xml-processing)]
 
 ##Prepare a document
 
