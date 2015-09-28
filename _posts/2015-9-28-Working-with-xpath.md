@@ -118,7 +118,7 @@ var iterator = navigator.Select(query, resolver);
 ```
 
 References
-- XPathNavigator.Select Method [1][1], [2][2]
+- XPathNavigator.Select Methods [1][1], [2][2]
 
 [1]: https://msdn.microsoft.com/en-us/library/0ea193ac(v=vs.110).aspx
 [2]: https://msdn.microsoft.com/en-us/library/6k4x060d(v=vs.110).aspx
