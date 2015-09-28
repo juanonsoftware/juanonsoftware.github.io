@@ -23,22 +23,22 @@ but it can. Look at code to see how it will be done
 
 ##Code to produce the document
 
-            var document = new XmlDocument();
+var document = new XmlDocument();
 
-            //var customers = document.CreateElement("rb", "Customers", "http://rabbit/xml");
-			var customers = document.CreateElement("Customers");
+//var customers = document.CreateElement("rb", "Customers", "http://rabbit/xml");
+var customers = document.CreateElement("Customers");
 
-            var customer1 = document.CreateElement("Customer");
-            customer1.SetAttribute(XmlConvert.EncodeName("First Name"), "http://rabbit/xml", "Juan");
-            customer1.SetAttribute("LastName", "Ho");
+var customer1 = document.CreateElement("Customer");
+customer1.SetAttribute(XmlConvert.EncodeName("First Name"), "http://rabbit/xml", "Juan");
+customer1.SetAttribute("LastName", "Ho");
 
-            var customer2 = document.CreateElement("Customer");
-            customer2.SetAttribute("FirstName", "Tuan");
-            customer2.SetAttribute("LastName", "Ho");
+var customer2 = document.CreateElement("Customer");
+customer2.SetAttribute("FirstName", "Tuan");
+customer2.SetAttribute("LastName", "Ho");
 
-            customers.AppendChild(customer1);
-            customers.AppendChild(customer2);
-            document.AppendChild(customers);
+customers.AppendChild(customer1);
+customers.AppendChild(customer2);
+document.AppendChild(customers);
 
 The comment line is another overload to define prefix and namespace for the `Customers` element.
 If namepsace is needed, it should be declared at document level. This is just an example.
@@ -66,14 +66,18 @@ using (var ms = new MemoryStream())
 
 This code generates below string
 
+```
 <rb:Customers xmlns:rb="http://rabbit/xml">
 	<Customer rb:First_x0020_Name="Juan" LastName="Ho" />
 	<Customer FirstName="Tuân" LastName="Hò" />
 </rb:Customers>
+```
 
 It's not a well-formed document because of missing a xml declareation like this
 
+```
 <?xml version="1.0" encoding="utf-8"?>
+```
 
 ###Getting text representation using XmlWriter.Create
 
