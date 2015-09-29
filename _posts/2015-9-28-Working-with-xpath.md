@@ -45,7 +45,7 @@ So the above code produce a simple document with **no custom namespace**.
 How to search for the Customer with LastName is *Ha* ? Below is an example
 
 ```
-// Build a XPath query
+// Build an XPath query
 const string query = "//Customers/Customer[@LastName='Ha']";
 var nodes = document.SelectNodes(query);
 
@@ -67,7 +67,7 @@ if (nodes != null)
 }
 ```
 
-Another method to retrive nodes is using XPathNavigator. From a XML document we can get navigator.
+Another method to retrive nodes is using XPathNavigator. From an XML document we can get navigator.
 
 ```
 // Create navigator of the document
