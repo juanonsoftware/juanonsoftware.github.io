@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Rabbit.Foundation Package
+title: Rabbit.Foundation Package Inside
 tags: [projects]
 ---
 
