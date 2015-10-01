@@ -30,15 +30,15 @@ For large data, Streaming can benifit for performance and scalability.
 
 Below are all TransferMode
 
-----------------------------------------------------------------
+
 |Buffered 			| The request and response messages are both buffered.|
-----------------------------------------------------------------
+|-------------------|-----------------------------------------------------|
 |Streamed			|Both the request and response are streamed.|
-----------------------------------------------------------------
+|-------------------|-----------------------------------------------------|
 |StreamedRequest	|The request message is streamed, and the response message is buffered.|
-----------------------------------------------------------------
+|-------------------|-----------------------------------------------------|
 |StreamedResponse	|The request message is buffered, and the response message is streamed.|
-----------------------------------------------------------------
+|-------------------|-----------------------------------------------------|
 
 And only below bindings support streamming out-of-box: 
 
