@@ -22,7 +22,7 @@ layout: default
 		{% assign site_tags_content = '' %}
 		{% for tag in site.data.tags %}
             {% capture tags_content_temp %}
-				{{ site_tags_content }}<a href="/blog/tag/{{ tag }}/">{{ tag.name }}</a>
+				{{ site_tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>
 				{% if forloop.last == false %}, {% endif %}
 			{% endcapture %}
             {% assign site_tags_content = tags_content_temp %}			
