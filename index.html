@@ -18,12 +18,26 @@ layout: default
 </div>
 
 <div class="right-side">
-	<script type="text/javascript">
-		google_ad_client = "ca-pub-7905487635678357";
-		google_ad_slot = "4032707426";
-		google_ad_width = 300;
-		google_ad_height = 600;
-	</script>
-	<!-- Right side ad on the Home page -->
-	<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+	<div>
+		{% assign site_tags_content = '' %}
+		{% for tag in site.data.tags %}
+            {% capture tags_content_temp %}
+				{{ site_tags_content }}<a href="/blog/tag/{{ post_tag }}/">{{ tag.name }}</a>
+				{% if forloop.last == false %}, {% endif %}
+			{% endcapture %}
+            {% assign site_tags_content = tags_content_temp %}			
+		{% endfor %}
+		
+		{{ site_tags_content }}
+	</div>
+	<div>
+		<script type="text/javascript">
+			google_ad_client = "ca-pub-7905487635678357";
+			google_ad_slot = "4032707426";
+			google_ad_width = 300;
+			google_ad_height = 600;
+		</script>
+		<!-- Right side ad on the Home page -->
+		<script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+	</div>
 </div>
