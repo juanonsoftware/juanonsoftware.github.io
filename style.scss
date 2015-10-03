@@ -294,6 +294,14 @@ footer {
   text-align: center;
 }
 
+.tags {
+	padding: 10px;
+    border: #CDCDCD 1px solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
