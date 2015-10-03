@@ -19,16 +19,15 @@ layout: default
 
 <div class="right-side">
 	<div>
-		{% assign site_tags_content = '' %}
-		{% for tag in site.data.tags %}
-            {% capture tags_content_temp %}
-				{{ site_tags_content }}<a href="/blog/tag/{{ tag.slug }}/">{{ tag.name }}</a>
-				{% if forloop.last == false %}, {% endif %}
-			{% endcapture %}
-            {% assign site_tags_content = tags_content_temp %}			
-		{% endfor %}
-		
-		{{ site_tags_content }}
+		<h1>Tags</h1>
+		<div>
+			<a href="/blog/tag/nosql/">NoSQL</a>
+			<a href="/blog/tag/ef/">Entity Framework</a>
+			<a href="/blog/tag/projects/">Projects</a>
+			<a href="/blog/tag/cloud/">Cloud Platforms</a>
+			<a href="/blog/tag/aspnetmvc/">ASP.NET MVC</a>
+			<a href="/blog/tag/studying/">Proof of concepts</a>
+		</div>
 	</div>
 	<div>
 		<script type="text/javascript">
