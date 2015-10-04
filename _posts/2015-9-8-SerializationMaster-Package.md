@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SerializationMaster - Work with serialization easier
+tags: [projects]
 ---
 
 This package has created to isolate serialization progress from depending on any serialization implementation.
@@ -9,8 +10,11 @@ You only need to configure one time at application entry point.
 
 ## Installation
 
-The easiest way to reference this package is using Package Manager Console, using this statement `Install-Package Rabbit.SerializationMaster`.
-Here is [NuGet location][1]
+The easiest way to reference this package is using Package Manager Console, using this command:
+
+`Install-Package Rabbit.SerializationMaster`.
+
+Here is [NuGet Package] location[1].
 
 ## Build-in functions
 
@@ -63,8 +67,13 @@ The result string will have json format. This strategy internally wraps [DataCon
 
 The result string will have xml format. This strategy internally wraps [XmlSerializer][3] class to serialize/deserialize your object.
 
+## Source code
+
+If you are interested in its source, please take a look on [GitHub repository][5]
+
 
 [1]: https://www.nuget.org/packages/Rabbit.SerializationMaster/
 [2]: https://msdn.microsoft.com/en-us/library/system.runtime.serialization.json.datacontractjsonserializer(v=vs.110).aspx
 [3]: https://msdn.microsoft.com/en-us/library/system.xml.serialization.xmlserializer(v=vs.110).aspx
 [4]: https://msdn.microsoft.com/en-us/library/system.serializableattribute(v=vs.110).aspx
+[5]: https://github.com/netvietdev/serialization-master
