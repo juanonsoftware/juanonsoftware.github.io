@@ -14,7 +14,7 @@ The easiest way to reference this package is using Package Manager Console, usin
 
 `Install-Package Rabbit.SerializationMaster`.
 
-Here is [NuGet Package] location[1].
+Here is [NuGet Package][1] location.
 
 ## Build-in functions
 
