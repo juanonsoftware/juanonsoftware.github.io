@@ -17,7 +17,7 @@ projects:
   name: Projects
 
 cloud:
-  name: Cloud Platform
+  name: Cloud Platforms
 
 aspnetmvc:
   name: ASP.NET MVC

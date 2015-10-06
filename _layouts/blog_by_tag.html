@@ -7,9 +7,9 @@ layout: default
 	<div class="posts">
 	{% for post in site.tags[page.tag] %}
 		<article class="post">
-			<h1>
+			<h2>
 				<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-			</h1>
+			</h2>
 			
 			<div class="entry">
 				{{ post.excerpt }}
