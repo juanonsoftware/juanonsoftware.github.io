@@ -38,10 +38,7 @@ Wait for the result...
 
 With async / await, we have this result after some seconds of wating for ProcessDbAsync to be finished
 
-```
-Wait for the result...
-Records: 10
-```
+![_config.yml]({{ site.baseurl }}/images/posts/async/console-app-async.png)
 
 The `CountRecords` is a long running task and it may take times to finish. `ProcessDbAsync` is an async method,
 it immediately returns control to the `Main`. That's reason we see the like `Wait for the result...`.
