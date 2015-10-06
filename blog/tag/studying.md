@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
-tag: projects
-permalink: /blog/tag/projects/
+tag: studying
+permalink: /blog/tag/studying/
 ---
