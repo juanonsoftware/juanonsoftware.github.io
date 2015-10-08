@@ -95,6 +95,7 @@ Below is the configuration element for `serviceAuthorization`, two importans poi
 
 References
 
+- [Authorization in WCF][6]
 - [How to: Use a Custom User Name and Password Validator][2]
 - [WCF Service with custom username password authentication][3]
 - [Message Security User Name][4]
@@ -105,3 +106,4 @@ References
 [3]: http://www.codeproject.com/Articles/96028/WCF-Service-with-custom-username-password-authenti
 [4]: https://msdn.microsoft.com/en-us/library/ms752233(v=vs.110).aspx
 [5]: https://msdn.microsoft.com/en-us/library/ms729794(v=vs.110).aspx
+[6]: https://msdn.microsoft.com/en-us/library/ms733071(v=vs.110).aspx
