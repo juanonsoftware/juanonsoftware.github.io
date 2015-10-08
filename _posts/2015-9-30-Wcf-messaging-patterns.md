@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WCF Messaging Patterns
-tags: [studying]
+tags: [studying, wcf]
 ---
 
 This post is about Messaging Patterns provided by WCF that I have learnt.

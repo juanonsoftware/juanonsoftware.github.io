@@ -8,7 +8,7 @@ Asynchronous programming will help us improve performance and responsiveness of 
 The new architecture containing `async` and `await` keywords does almost difficult job and let developers
 write code similarly to synchronous code.
 
-# First example with a Console Application
+## First example with a Console Application
 
 ```
 class Program
@@ -46,6 +46,14 @@ it immediately returns control to the `Main`. That's reason we see the like `Wai
 
 Inside method `ProcessDbAsync()`, when it reaches `await` keyword, it waits for `CountRecordsAsync` to finished.
 When it finished, result appears on console.
+
+## Exception handling on Async/Await methods
+
+This is a point should be noted
+
+`An async method has a void return type can’t be awaited, and the caller of a void-returning method can't catch any exceptions that the method throws.`
+
+
 
 
 References

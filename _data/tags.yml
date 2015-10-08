@@ -13,6 +13,9 @@ nosql:
 ef:
   name: Entity Framework
   
+wcf:
+  name: WCF
+  
 projects:
   name: Projects
 

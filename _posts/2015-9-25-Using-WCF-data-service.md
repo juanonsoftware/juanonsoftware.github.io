@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working with WCF Data Service
-tags: [studying, ef]
+tags: [studying, ef, wcf]
 ---
 
 This post will drive you to create WCF Data Service and how to use it in your client application.
