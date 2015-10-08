@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WCF security - how to implement Authentication and Authorization
+title: WCF security - Authentication and Authorization
 tags: [studying, wcf]
 ---
 
@@ -52,7 +52,7 @@ public class CustomPrincipal : GenericPrincipal
 
 	private static IEnumerable<string> GetRoles(IIdentity identity)
 	{
-		if (identity.Name == "hhoangvan")
+		if (identity.Name == "XXX")
 		{
 			return new List<string>()
 			{
