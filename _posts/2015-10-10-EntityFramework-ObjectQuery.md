@@ -57,9 +57,9 @@ var results =
 		.ToList();
 ```
 
-This way it does the same work but it's not dynamic. The fields we must be specified in code at compilation time.
+This way does the same work but it's not dynamic. The fields must be specified at code at compilation time.
 
-EF generates SQL command and performs against db system
+EF generates and performs SQL commands against db system (not using sp_executesql)
 
 ```
 SELECT TOP (2) 
