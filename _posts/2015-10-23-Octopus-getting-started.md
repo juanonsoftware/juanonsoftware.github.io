@@ -4,6 +4,9 @@ title: Start using Octopus to deploy apps
 tags: [studying]
 ---
 
+This post explains all steps needed to install, work with Octopus Deploy that I have passes through.
+After some short of investigations, it's really nice and should be in hands of .NET developers / production engineers.
+
 ## Setup Octopus
 
 [Octopus requirements][1] are important, it requires Windows Server 2K8+. It shouldn't be installed
