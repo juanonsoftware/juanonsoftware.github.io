@@ -27,7 +27,7 @@ when I connect from Windows Server 2K8 (Octopus Server).
 
 ## Using Octopus
 
-1. Creating Environments
+###1. Creating Environments
 
 Just put some information into the form the create an Environment.
 
@@ -35,13 +35,13 @@ Just put some information into the form the create an Environment.
 
 More than one environment can be created depending on requirements of the applications.
 
-2. Creating Projects
+###2. Creating Projects
 
 Just put some information into the form the create a Project.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/octopus/project.png)
 
-3. Define process of deployment for your project
+###3. Define process of deployment for your project
 
 Process of deployment can be devided into multiple steps. Each project may require different steps than others.
 
@@ -54,14 +54,14 @@ Below are example steps of a XBanking web applicaiton:
 
 ![_config.yml]({{ site.baseurl }}/images/posts/octopus/project.png)
 
-4. Configure SMTP
+###4. Configure SMTP
 
 Because the deployment process contains some mailing steps, so it requires to provide SMTP information.
 It will ask you to do some testing to besure that the setting is good.
 
 ![_config.yml]({{ site.baseurl }}/images/posts/octopus/smtp.png)
 
-5. Build package for your application
+###5. Build package for your application
 
 There are a [number of options][5] to create NuGet package of your application. In this document,
 I use [OctoPack][6] way. That requires to install OctoPack package into the running project
@@ -86,7 +86,7 @@ After above step, the should be displayed in Octopus feed
 
 ![_config.yml]({{ site.baseurl }}/images/posts/octopus/library.png)
 
-6. Creating Releases and make deployment
+###6. Creating Releases and make deployment
 
 Now it's ready to create project release(s) and deploy to target environment(s).
 Octopus should send emails regarding each deployment status.
@@ -96,7 +96,7 @@ Octopus should send emails regarding each deployment status.
 References
 
 1. [Octopus Key Concepts][7]
-2. 
+2. [Octopus Deployment Basics][8]
 
 
 [1]: http://docs.octopusdeploy.com/display/OD/Installing+Octopus
@@ -106,3 +106,4 @@ References
 [5]: http://docs.octopusdeploy.com/display/OD/Packaging+applications
 [6]: http://docs.octopusdeploy.com/display/OD/Using+OctoPack
 [7]: http://docs.octopusdeploy.com/display/OD/Key+Concepts
+[8]: http://ianpaullin.com/2014/06/03/octopus-deployment-basics/
