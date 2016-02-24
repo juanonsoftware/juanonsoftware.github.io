@@ -115,3 +115,44 @@ public class TimebaseHexIdGenerator : IIdGenerator
         }
     }
 ```
+
+#4. The main logic
+
+```
+static class IdGeneratorHelper
+    {
+        public static string NewId(IDictionary<long, IList<long>> cache, long current)
+        {
+            // If all keys are precedent values, we should remove them from the dictionary
+            // Otherwise cache contains current in the keys.
+            // To ignore duplicated ID(s), we try to increase values in the list on each generation.
+
+            if (cache.Any() && cache.Keys.Max() < current)
+            {
+                cache.Clear();
+            }
+
+            if (!cache.Any())
+            {
+                cache.Add(current, new List<long>());
+            }
+
+            string secondPart;
+            if (cache[current].Any())
+            {
+                var maxValue = cache[current].Max();
+                cache[current].Add(maxValue + 1);
+                secondPart = maxValue.ToString(CultureInfo.InvariantCulture);
+            }
+            else
+            {
+                cache[current].Add(0);
+                secondPart = string.Empty;
+            }
+
+            var nextValueFormatted = string.Format("{0}{1}", current, secondPart);
+            return UInt64.Parse(nextValueFormatted).ToString("X");
+        }
+    }
+```
+
