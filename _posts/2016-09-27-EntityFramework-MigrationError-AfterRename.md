@@ -16,4 +16,6 @@ but it is quite generic and pretty hard to identify exactly error could raise fr
 
 **So... should create a new migration instead of renaming :)**
 
+![_config.yml](/images/posts/ef/Microsoft-Visual-Studio-(Administrator)_2.png)
+
 ![_config.yml](/images/posts/ef/The-specified-schema-name-bgp-either-does-not-exist-or-you-do-not-have-permission-to-use-it.---Google-Chrome.jpg)
