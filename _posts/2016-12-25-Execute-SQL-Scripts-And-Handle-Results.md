@@ -16,7 +16,7 @@ But looked into SqlScriptExecutor, it also writes other infos such as script nam
 ![_config.yml](/images/posts/DbUp - SqlScriptExecutor.png)
 
 
-=> The need is to implement a subclass of SqlScriptExecutor, override method Log to handle outputs;
+=> The need is to implement a subclass of [SqlScriptExecutor][4], override method Log to handle the outputs;
 
 => Then implement a custom of IUpgradeLog to save the result as expected;
 If number of affected rows is important, it is required to override method Execute
@@ -31,14 +31,14 @@ With method QueryMultiple, all commands will be executed and outputs are kept in
 
 # And below is my Quick comparison
 
-### DbUp
+### 1. DbUp
 It is designed for upgrading databases, can track scripts have been run and skip running them on future upgrades
 
 -> A custom table will be used in each database to store those scripts
 
--> Seems to be good in this case
+-> Seems good in this case
 
-### Dapper
+### 2. Dapper
 
 Dapper is generally used for running scripts, not required much customization.
 
@@ -54,3 +54,4 @@ Dapper is generally used for running scripts, not required much customization.
 [1]: http://stackoverflow.com/q/39221405/4903729
 [2]: https://github.com/DbUp/DbUp
 [3]: https://github.com/StackExchange/dapper-dot-net
+[4]: https://github.com/DbUp/DbUp/blob/master/src/DbUp/Support/SqlServer/SqlScriptExecutor.cs
