@@ -29,6 +29,12 @@ With method QueryMultiple, all commands will be executed and outputs are kept in
 
 ![_config.yml](/images/posts/Dapper - QueryMultiple.png)
 
+# 3rd option: via [sqlcmd.exe][5] utility
+
+This is nice as the input and output can be customize by many parameters.
+
+But seems difficult to manage transaction (per script, per all scripts); not able to run on other DBMS such as MySQL.
+
 # And below is my Quick comparison
 
 ### 1. DbUp
@@ -55,3 +61,4 @@ Dapper is generally used for running scripts, not required much customization.
 [2]: https://github.com/DbUp/DbUp
 [3]: https://github.com/StackExchange/dapper-dot-net
 [4]: https://github.com/DbUp/DbUp/blob/master/src/DbUp/Support/SqlServer/SqlScriptExecutor.cs
+[5]: https://msdn.microsoft.com/en-us/library/ms180944.aspx
